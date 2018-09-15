@@ -1,0 +1,52 @@
+﻿Build started 6/2/2018 6:45:47 PM.
+     1>Project "C:\Users\merli\Desktop\Compiler\Compiler\Compiler.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(24): warning C4047: 'return' : 'PArray **' differs in levels of indirection from 'PArray *'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(29): warning C4047: 'return' : 'PArray **' differs in levels of indirection from 'PArray *'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(34): warning C4047: '=' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(79): warning C4047: 'function' : 'IMLNode **' differs in levels of indirection from 'int'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(79): warning C4024: 'reAllocateIMLNodeArray' : different types for formal and actual parameter 1
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(79): warning C4047: 'function' : 'int' differs in levels of indirection from 'IML *'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(79): warning C4024: 'reAllocateIMLNodeArray' : different types for formal and actual parameter 2
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(79): warning C4047: '=' : 'IML *' differs in levels of indirection from 'IMLNode **'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(231): warning C4133: 'return' : incompatible types - from 'SNode *' to 'CNode *'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(247): warning C4133: '=' : incompatible types - from 'CNode *' to 'SNode *'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(307): warning C4047: 'function' : 'BATNode **' differs in levels of indirection from 'int'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(307): warning C4024: 'reAllocBATArray' : different types for formal and actual parameter 1
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(307): warning C4047: 'function' : 'int' differs in levels of indirection from 'BAT *'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(307): warning C4024: 'reAllocBATArray' : different types for formal and actual parameter 2
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(307): warning C4047: '=' : 'BAT *' differs in levels of indirection from 'BATNode **'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(331): warning C4098: 'reAllocateStackNode' : 'void' function returning a value
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(336): warning C4047: 'function' : 'SNode **' differs in levels of indirection from 'SN *'
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(336): warning C4024: 'reAllocSArray' : different types for formal and actual parameter 1
+     1>c:\users\merli\desktop\compiler\compiler\structures.h(371): warning C4047: '=' : 'long' differs in levels of indirection from 'void *'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(168): warning C4047: 'initializing' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(206): warning C4047: 'initializing' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(222): warning C4047: '=' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(323): warning C4033: 'readFileForLabel' must return a value
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(362): warning C4047: 'initializing' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(422): warning C4047: 'initializing' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(455): warning C4047: 'initializing' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(497): warning C4047: 'initializing' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\interpret.h(36): warning C4133: 'initializing' : incompatible types - from 'SNode *' to 'CNode *'
+     1>c:\users\merli\desktop\compiler\compiler\interpret.h(131): warning C4133: 'initializing' : incompatible types - from 'SNode *' to 'CNode *'
+     1>c:\users\merli\desktop\compiler\compiler\interpret.h(176): warning C4033: 'interpret' must return a value
+     1>c:\users\merli\desktop\compiler\compiler\interpret.h(178): warning C4101: 'opcode' : unreferenced local variable
+     1>c:\users\merli\desktop\compiler\compiler\command.h(7): warning C4047: 'return' : 'void *' differs in levels of indirection from 'unsigned long'
+     1>c:\users\merli\desktop\compiler\compiler\command.h(10): warning C4047: '=' : 'void *' differs in levels of indirection from 'long'
+     1>c:\users\merli\desktop\compiler\compiler\command.h(11): warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+     1>c:\users\merli\desktop\compiler\compiler\command.h(15): warning C4047: 'return' : 'void *' differs in levels of indirection from 'unsigned long'
+     1>c:\users\merli\desktop\compiler\compiler\execute.h(43): warning C4133: 'function' : incompatible types - from 'CT *' to 'BAT *'
+     1>c:\users\merli\desktop\compiler\compiler\execute.h(93): warning C4047: 'initializing' : 'PArray *' differs in levels of indirection from 'PArray **'
+     1>c:\users\merli\desktop\compiler\compiler\operations.h(336): warning C4715: 'readFileForLabel' : not all control paths return a value
+     1>c:\users\merli\desktop\compiler\compiler\interpret.h(214): warning C4715: 'interpret' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\merli\Desktop\Compiler\Debug\Compiler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\merli\Desktop\Compiler\Debug\Compiler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\merli\Desktop\Compiler\Debug\Compiler.lib" /MACHINE:X86 Debug\main.obj
+         Compiler.vcxproj -> C:\Users\merli\Desktop\Compiler\Debug\Compiler.exe
+     1>Done Building Project "C:\Users\merli\Desktop\Compiler\Compiler\Compiler.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54

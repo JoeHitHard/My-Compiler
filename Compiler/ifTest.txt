@@ -1,0 +1,15 @@
+data a
+data i
+data f
+const c=1
+mov i,c
+mov f,c
+read a
+add a,a,c
+x:
+mul f,f,i
+add i,i,c
+if a gt i then
+jump x
+endif
+write f

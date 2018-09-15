@@ -1,0 +1,21 @@
+data a
+data b
+data c
+read a
+read b
+read c
+if a gt b then
+if b gt c then
+write a
+else
+if c gt a then
+write c
+endif
+endif
+else
+if b gt c then
+write b
+else
+write c
+endif
+endif

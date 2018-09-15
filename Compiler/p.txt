@@ -1,0 +1,7 @@
+data a
+data b[3]
+const c=3
+mov a,b[0]
+read a
+read b[1]
+add a,a,b[1]
